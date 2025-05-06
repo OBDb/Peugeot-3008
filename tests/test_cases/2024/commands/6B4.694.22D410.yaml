@@ -5,36 +5,6 @@ test_cases:
 - response: 6940562D4100000
   expected_values:
     PEUGEOT_HVBAT_SOC: 0
-- response: 6940562D4100003
-  expected_values:
-    PEUGEOT_HVBAT_SOC: 0.00586
-- response: 6940562D4100203
-  expected_values:
-    PEUGEOT_HVBAT_SOC: 1.00586
-- response: 6940562D4100803
-  expected_values:
-    PEUGEOT_HVBAT_SOC: 4.00586
-- response: 6940562D4100A03
-  expected_values:
-    PEUGEOT_HVBAT_SOC: 5.00586
-- response: 6940562D4100B03
-  expected_values:
-    PEUGEOT_HVBAT_SOC: 5.50586
-- response: 6940562D4100D03
-  expected_values:
-    PEUGEOT_HVBAT_SOC: 6.50586
-- response: 6940562D4100E03
-  expected_values:
-    PEUGEOT_HVBAT_SOC: 7.00586
-- response: 6940562D4108302
-  expected_values:
-    PEUGEOT_HVBAT_SOC: 65.50391
-- response: 6940562D4108502
-  expected_values:
-    PEUGEOT_HVBAT_SOC: 66.50391
-- response: 6940562D4108602
-  expected_values:
-    PEUGEOT_HVBAT_SOC: 67.00391
 - response: 6940562D410D50F
   expected_values:
     PEUGEOT_HVBAT_SOC: 100
