@@ -28,3 +28,6 @@ supported_commands_by_ecu:
   - 014D:MIL_TIME
   - 014E:CLR_TIME
   - 015D:FUEL_TIMING
+unsupported_commands_by_ecu:
+  "7E1":
+  - 7E1.7E9.2204FE:PEUGEOT_ATF_T
