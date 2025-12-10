@@ -28,6 +28,7 @@ supported_commands_by_ecu:
   - 014D:MIL_TIME
   - 014E:CLR_TIME
   - 015D:FUEL_TIMING
+  - 7E0.0104:LOAD_PCT
   - 7E0.010D:VSS
   - 7E0.0110:MAF
 unsupported_commands_by_ecu:
