@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D40D|fc=1
+test_cases:
+- expected_values:
+    3008_ECT_TGT: 95
+  response: 6880562D40D005F
