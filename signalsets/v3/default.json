@@ -91,7 +91,7 @@
   "signals": [
     {"id": "3008_ELEC_MACHINE_TQ", "path": "Engine", "fmt": { "len": 16, "max": 4915, "min": -1638, "div": 10, "add": -1638.3, "unit": "newtonMeters" }, "name": "Electric machine torque"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"22": "D400"}, "freq": 0.25,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "din": "C0", "cmd": {"22": "D400"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_RPM", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Engine RPM", "suggestedMetric": "engineSpeed"}
   ]},
@@ -107,7 +107,7 @@
   "signals": [
     {"id": "3008_ACCEL_PEDAL_SIG_1_V", "path": "Battery", "fmt": { "len": 16, "max": 6.55, "min": -6.55, "div": 5000.0001263106, "sign": true, "unit": "volts" }, "name": "Accelerator pedal signal 1 voltage"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D406"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D406"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_ACCEL_PEDAL_SIG_2_V", "path": "Battery", "fmt": { "len": 16, "max": 6.55, "min": -6.55, "div": 5000.0001263106, "sign": true, "unit": "volts" }, "name": "Accelerator pedal signal 2 voltage"}
   ]},
@@ -123,7 +123,7 @@
   "signals": [
     {"id": "3008_ECT_CORRECTED", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Coolant temperature, corrected"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D40D"}, "freq": 5,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D40D"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_ECT_TGT", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Coolant temperature target"}
   ]},
@@ -187,7 +187,7 @@
   "signals": [
     {"id": "3008_5V_POWER_SUP_ST_2", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "5V power supply state number 2"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D425"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D425"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_5V_POWER_SUP_ST_3", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "5V power supply state number 3"}
   ]},
@@ -259,7 +259,7 @@
   "signals": [
     {"id": "3008_BRAKE_SYSTEM_BACKUP", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake system backup contactor status"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"22": "D464"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "din": "C0", "cmd": {"22": "D464"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_OIL_P_REFERENCE", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "bars" }, "name": "Oil pressure reference value"}
   ]},
@@ -363,7 +363,7 @@
   "signals": [
     {"id": "3008_SET_SPD_ELEC_COOLING", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Set speed of electric cooling fan"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D4AF"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4AF"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_AC", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Air conditioning"}
   ]},
