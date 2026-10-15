@@ -131,7 +131,7 @@
   "signals": [
     {"id": "3008_BOOST_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 3003, "min": -3549, "div": 10, "add": -273.1400146484, "sign": true, "unit": "celsius" }, "name": "Boost air temperature"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D412"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D412"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_STAT_INTERNAL_IGN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Status of internal ignition motor"}
   ]},
@@ -195,7 +195,7 @@
   "signals": [
     {"id": "3008_5V_POWER_SUP_ST_4", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "5V power supply state number 4"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D429"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D429"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_OIL_P", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "bars" }, "name": "Oil pressure"}
   ]},
@@ -271,7 +271,7 @@
   "signals": [
     {"id": "3008_SERVICE_BAT_CHG_STAT", "path": "Battery", "fmt": { "len": 16, "max": 4095, "div": 16, "unit": "percent" }, "name": "Service battery charge status"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D469"}, "freq": 0.25,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D469"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_CLU_PEDAL_POS", "path": "Transmission", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "percent" }, "name": "Clutch pedal position value"}
   ]},
@@ -291,7 +291,7 @@
   "signals": [
     {"id": "3008_VSS_LIMITER_SET_SPD", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed limiter set speed"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D477"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D477"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_ENG_STOP_TIME", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "seconds" }, "name": "Engine stop time"}
   ]},
@@ -367,7 +367,7 @@
   "signals": [
     {"id": "3008_AC", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Air conditioning"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D4B0"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4B0"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_CRUISE_CTRL_RW_STAT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control, RW status"}
   ]},
@@ -375,7 +375,7 @@
   "signals": [
     {"id": "3008_POWERTRAIN_COND", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Powertrain condition"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D4C0"}, "freq": 0.25,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4C0"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_VSS_LIMITER_STAT_LW", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Vehicle speed limiter status, LW"}
   ]},
@@ -407,7 +407,7 @@
   "signals": [
     {"id": "3008_ESTIMATED_TQ", "path": "Engine", "fmt": { "len": 16, "max": 4095, "div": 16, "unit": "newtonMeters" }, "name": "Estimated torque of internal friction of the engine"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D4E3"}, "freq": 0.25,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4E3"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_TQ_CORRESPONDING", "path": "Engine", "fmt": { "len": 16, "max": 2047, "min": -2048, "div": 16, "sign": true, "unit": "newtonMeters" }, "name": "Torque corresponding to driver requirement"}
   ]},
@@ -674,7 +674,7 @@
   "signals": [
     {"id": "3008_ENG_RESTART_CNT_STOP", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Engine restart counter by stop and start function"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D71E"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D71E"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_START_OR_RESTART", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Start or restart inhibition transmitted by engine management computer"}
   ]},
@@ -710,7 +710,7 @@
   "signals": [
     {"id": "3008_STOP_START_SWITCH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Stop and start switch"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D728"}, "freq": 0.25,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D728"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_TQ_SUPPLIED_OR_TAKEN", "path": "Engine", "fmt": { "len": 16, "max": 2047, "min": -2048, "div": 16, "sign": true, "unit": "newtonMeters" }, "name": "Torque supplied or taken by generator"}
   ]},
@@ -754,7 +754,7 @@
   "signals": [
     {"id": "3008_SERVICE_BAT_WEAR", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Service battery wear condition"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D742"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D742"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_SERVICE_BAT_CHG_ST", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Service battery charge state"}
   ]},
@@ -810,11 +810,11 @@
   "signals": [
     {"id": "3008_RETURN_ENG_START", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Return to engine start and restart control by starter"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D766"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D766"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_SET_V_STORAGE_BAT", "path": "Battery", "fmt": { "len": 16, "max": 511, "div": 128, "unit": "volts" }, "name": "Set voltage of storage battery charging"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D767"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D767"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_START_INHIBIT_CTRL", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Start inhibit control, wired"}
   ]},

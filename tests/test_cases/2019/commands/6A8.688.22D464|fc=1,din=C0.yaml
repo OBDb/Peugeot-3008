@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     3008_OIL_P_REFERENCE: 2.928
   response: 6880562D4640B70
+- expected_values:
+    3008_OIL_P_REFERENCE: 3.07
+  response: 6880562D4640BFE

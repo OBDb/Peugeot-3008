@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     3008_RPM: 796
   response: 6880562D400031C
+- expected_values:
+    3008_RPM: 2242
+  response: 6880562D40008C2
