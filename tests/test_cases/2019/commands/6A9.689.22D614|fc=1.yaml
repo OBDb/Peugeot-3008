@@ -1,0 +1,20 @@
+command_id: 6A9.689.22D614|fc=1
+test_cases:
+- expected_values:
+    3008_CTRL_CURRENT_P_C3: 100
+  response: 6890462D6140A
+- expected_values:
+    3008_CTRL_CURRENT_P_C3: 280
+  response: 6890462D6141C
+- expected_values:
+    3008_CTRL_CURRENT_P_C3: 340
+  response: 6890462D61422
+- expected_values:
+    3008_CTRL_CURRENT_P_C3: 420
+  response: 6890462D6142A
+- expected_values:
+    3008_CTRL_CURRENT_P_C3: 430
+  response: 6890462D6142B
+- expected_values:
+    3008_CTRL_CURRENT_P_C3: 540
+  response: 6890462D61436

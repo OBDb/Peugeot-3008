@@ -1,0 +1,23 @@
+command_id: 6A8.688.22D460|fc=1
+test_cases:
+- expected_values:
+    3008_AIR_METERING_VLV_TGT: 23.68
+  response: 6880562D4600940
+- expected_values:
+    3008_AIR_METERING_VLV_TGT: 26.24
+  response: 6880562D4600A40
+- expected_values:
+    3008_AIR_METERING_VLV_TGT: 26.88
+  response: 6880562D4600A80
+- expected_values:
+    3008_AIR_METERING_VLV_TGT: 32.64
+  response: 6880562D4600CC0
+- expected_values:
+    3008_AIR_METERING_VLV_TGT: 37.76
+  response: 6880562D4600EC0
+- expected_values:
+    3008_AIR_METERING_VLV_TGT: 58.88
+  response: 6880562D4601700
+- expected_values:
+    3008_AIR_METERING_VLV_TGT: 68.48
+  response: 6880562D4601AC0

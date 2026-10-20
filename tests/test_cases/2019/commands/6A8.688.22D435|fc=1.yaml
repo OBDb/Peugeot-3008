@@ -1,0 +1,23 @@
+command_id: 6A8.688.22D435|fc=1
+test_cases:
+- expected_values:
+    3008_COMPUTER_T: 3303
+  response: 6880562D4350CE7
+- expected_values:
+    3008_COMPUTER_T: 3307
+  response: 6880562D4350CEB
+- expected_values:
+    3008_COMPUTER_T: 3310
+  response: 6880562D4350CEE
+- expected_values:
+    3008_COMPUTER_T: 3313
+  response: 6880562D4350CF1
+- expected_values:
+    3008_COMPUTER_T: 3317
+  response: 6880562D4350CF5
+- expected_values:
+    3008_COMPUTER_T: 3322
+  response: 6880562D4350CFA
+- expected_values:
+    3008_COMPUTER_T: 3329
+  response: 6880562D4350D01

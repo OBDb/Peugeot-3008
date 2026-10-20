@@ -1,0 +1,17 @@
+command_id: 6A9.689.22D607|fc=1
+test_cases:
+- expected_values:
+    3008_MEAS_LINE_P: 730
+  response: 6890462D60749
+- expected_values:
+    3008_MEAS_LINE_P: 760
+  response: 6890462D6074C
+- expected_values:
+    3008_MEAS_LINE_P: 910
+  response: 6890462D6075B
+- expected_values:
+    3008_MEAS_LINE_P: 940
+  response: 6890462D6075E
+- expected_values:
+    3008_MEAS_LINE_P: 970
+  response: 6890462D60761

@@ -1,0 +1,17 @@
+command_id: 6A8.688.22D445|fc=1
+test_cases:
+- expected_values:
+    3008_DES_HIGH_P_COMMON_P: 800
+  response: 6880562D4450320
+- expected_values:
+    3008_DES_HIGH_P_COMMON_P: 816
+  response: 6880562D4450330
+- expected_values:
+    3008_DES_HIGH_P_COMMON_P: 1479
+  response: 6880562D44505C7
+- expected_values:
+    3008_DES_HIGH_P_COMMON_P: 1872
+  response: 6880562D4450750
+- expected_values:
+    3008_DES_HIGH_P_COMMON_P: 1953
+  response: 6880562D44507A1

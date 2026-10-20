@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D71F|fc=1
+test_cases:
+- expected_values:
+    3008_STARTER_ACTIVATION: 12990
+  response: 6880762D71F000032BE

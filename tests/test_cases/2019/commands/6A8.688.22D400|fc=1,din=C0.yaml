@@ -1,8 +1,29 @@
 command_id: 6A8.688.22D400|fc=1,din=C0
 test_cases:
 - expected_values:
+    3008_RPM: 793
+  response: 6880562D4000319
+- expected_values:
     3008_RPM: 796
   response: 6880562D400031C
+- expected_values:
+    3008_RPM: 807
+  response: 6880562D4000327
+- expected_values:
+    3008_RPM: 1446
+  response: 6880562D40005A6
+- expected_values:
+    3008_RPM: 1604
+  response: 6880562D4000644
+- expected_values:
+    3008_RPM: 1663
+  response: 6880562D400067F
+- expected_values:
+    3008_RPM: 1731
+  response: 6880562D40006C3
+- expected_values:
+    3008_RPM: 1769
+  response: 6880562D40006E9
 - expected_values:
     3008_RPM: 2242
   response: 6880562D40008C2

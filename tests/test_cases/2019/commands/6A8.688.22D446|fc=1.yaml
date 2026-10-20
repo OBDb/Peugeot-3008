@@ -1,0 +1,23 @@
+command_id: 6A8.688.22D446|fc=1
+test_cases:
+- expected_values:
+    3008_HIGH_FUEL_P_MEAS: 79.8
+  response: 6880562D446031E
+- expected_values:
+    3008_HIGH_FUEL_P_MEAS: 80.1
+  response: 6880562D4460321
+- expected_values:
+    3008_HIGH_FUEL_P_MEAS: 125.8
+  response: 6880562D44604EA
+- expected_values:
+    3008_HIGH_FUEL_P_MEAS: 181.2
+  response: 6880562D4460714
+- expected_values:
+    3008_HIGH_FUEL_P_MEAS: 190.6
+  response: 6880562D4460772
+- expected_values:
+    3008_HIGH_FUEL_P_MEAS: 199.5
+  response: 6880562D44607CB
+- expected_values:
+    3008_HIGH_FUEL_P_MEAS: 199.9
+  response: 6880562D44607CF

@@ -1,0 +1,23 @@
+command_id: 6A8.688.22D497|fc=1
+test_cases:
+- expected_values:
+    3008_BAT_CURRENT: 0.05957
+  response: 6880762D4970000003D
+- expected_values:
+    3008_BAT_CURRENT: 0.07227
+  response: 6880762D4970000004A
+- expected_values:
+    3008_BAT_CURRENT: 0.2041
+  response: 6880762D497000000D1
+- expected_values:
+    3008_BAT_CURRENT: 0.2373
+  response: 6880762D497000000F3
+- expected_values:
+    3008_BAT_CURRENT: 0.31836
+  response: 6880762D49700000146
+- expected_values:
+    3008_BAT_CURRENT: 0.51758
+  response: 6880762D49700000212
+- expected_values:
+    3008_BAT_CURRENT: -0.15723
+  response: 6880762D497FFFFFF5F

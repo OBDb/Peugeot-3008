@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     3008_ACCEL_PEDAL_SIG_2_V: 0.2062
   response: 6880562D4060407
+- expected_values:
+    3008_ACCEL_PEDAL_SIG_2_V: 0.2074
+  response: 6880562D406040D
+- expected_values:
+    3008_ACCEL_PEDAL_SIG_2_V: 0.2086
+  response: 6880562D4060413
+- expected_values:
+    3008_ACCEL_PEDAL_SIG_2_V: 0.26
+  response: 6880562D4060514
+- expected_values:
+    3008_ACCEL_PEDAL_SIG_2_V: 0.515
+  response: 6880562D4060A0F
+- expected_values:
+    3008_ACCEL_PEDAL_SIG_2_V: 0.652
+  response: 6880562D4060CBC

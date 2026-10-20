@@ -1,0 +1,17 @@
+command_id: 6A9.689.22D615|fc=1
+test_cases:
+- expected_values:
+    3008_MEAS_CURRENT_P_C3: 100
+  response: 6890462D6150A
+- expected_values:
+    3008_MEAS_CURRENT_P_C3: 280
+  response: 6890462D6151C
+- expected_values:
+    3008_MEAS_CURRENT_P_C3: 340
+  response: 6890462D61522
+- expected_values:
+    3008_MEAS_CURRENT_P_C3: 430
+  response: 6890462D6152B
+- expected_values:
+    3008_MEAS_CURRENT_P_C3: 470
+  response: 6890462D6152F

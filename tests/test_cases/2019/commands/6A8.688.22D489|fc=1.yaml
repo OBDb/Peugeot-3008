@@ -1,0 +1,23 @@
+command_id: 6A8.688.22D489|fc=1
+test_cases:
+- expected_values:
+    3008_AIR_FLOW: 17.2
+  response: 6880562D48900AC
+- expected_values:
+    3008_AIR_FLOW: 19.4
+  response: 6880562D48900C2
+- expected_values:
+    3008_AIR_FLOW: 20
+  response: 6880562D48900C8
+- expected_values:
+    3008_AIR_FLOW: 24.2
+  response: 6880562D48900F2
+- expected_values:
+    3008_AIR_FLOW: 30.5
+  response: 6880562D4890131
+- expected_values:
+    3008_AIR_FLOW: 38.2
+  response: 6880562D489017E
+- expected_values:
+    3008_AIR_FLOW: 102
+  response: 6880562D48903FC

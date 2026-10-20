@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D41C|fc=1
+test_cases:
+- expected_values:
+    3008_AC_COMP_CURRENT: 325
+  response: 6880462D41C0D
+- expected_values:
+    3008_AC_COMP_CURRENT: 375
+  response: 6880462D41C0F
+- expected_values:
+    3008_AC_COMP_CURRENT: 450
+  response: 6880462D41C12
+- expected_values:
+    3008_AC_COMP_CURRENT: 475
+  response: 6880462D41C13

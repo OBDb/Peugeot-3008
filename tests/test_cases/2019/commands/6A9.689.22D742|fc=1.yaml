@@ -1,0 +1,14 @@
+command_id: 6A9.689.22D742|fc=1
+test_cases:
+- expected_values:
+    3008_NUM_ACTIVATIONS_C1: 215097
+  response: 6890762D74200034839
+- expected_values:
+    3008_NUM_ACTIVATIONS_C1: 215098
+  response: 6890762D7420003483A
+- expected_values:
+    3008_NUM_ACTIVATIONS_C1: 215099
+  response: 6890762D7420003483B
+- expected_values:
+    3008_NUM_ACTIVATIONS_C1: 215100
+  response: 6890762D7420003483C
