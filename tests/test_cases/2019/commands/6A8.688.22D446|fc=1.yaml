@@ -7,6 +7,9 @@ test_cases:
     3008_HIGH_FUEL_P_MEAS: 80.1
   response: 6880562D4460321
 - expected_values:
+    3008_HIGH_FUEL_P_MEAS: 87.8
+  response: 6880562D446036E
+- expected_values:
     3008_HIGH_FUEL_P_MEAS: 125.8
   response: 6880562D44604EA
 - expected_values:

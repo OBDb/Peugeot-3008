@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     3008_ECT_CORRECTED: 89
   response: 6880562D40A0059
+- expected_values:
+    3008_ECT_CORRECTED: 96
+  response: 6880562D40A0060
