@@ -1,6 +1,9 @@
 command_id: 6A8.688.22D489|fc=1
 test_cases:
 - expected_values:
+    3008_AIR_FLOW: 14
+  response: 6880562D489008C
+- expected_values:
     3008_AIR_FLOW: 17.2
   response: 6880562D48900AC
 - expected_values:

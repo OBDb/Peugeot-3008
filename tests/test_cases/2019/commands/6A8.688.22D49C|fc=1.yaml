@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     3008_ODO_6A8: 228259
   response: 6880762D49C00037BA3
+- expected_values:
+    3008_ODO_6A8: 228545
+  response: 6880762D49C00037CC1

@@ -13,6 +13,9 @@ test_cases:
     3008_INDICATED_ENG_TQ: 24.5625
   response: 6880562D4D20189
 - expected_values:
+    3008_INDICATED_ENG_TQ: 44.875
+  response: 6880562D4D202CE
+- expected_values:
     3008_INDICATED_ENG_TQ: 54.75
   response: 6880562D4D2036C
 - expected_values:

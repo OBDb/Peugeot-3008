@@ -19,5 +19,8 @@ test_cases:
     3008_BAT_CURRENT: 0.51758
   response: 6880762D49700000212
 - expected_values:
+    3008_BAT_CURRENT: 2.34961
+  response: 6880762D49700000966
+- expected_values:
     3008_BAT_CURRENT: -0.15723
   response: 6880762D497FFFFFF5F
