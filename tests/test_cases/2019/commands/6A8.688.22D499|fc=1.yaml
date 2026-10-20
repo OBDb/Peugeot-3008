@@ -1,0 +1,23 @@
+command_id: 6A8.688.22D499|fc=1
+test_cases:
+- expected_values:
+    3008_CRANK_SPD_DETERMINED: 792.5
+  response: 6880562D4990631
+- expected_values:
+    3008_CRANK_SPD_DETERMINED: 804.5
+  response: 6880562D4990649
+- expected_values:
+    3008_CRANK_SPD_DETERMINED: 1372
+  response: 6880562D4990AB8
+- expected_values:
+    3008_CRANK_SPD_DETERMINED: 1538.5
+  response: 6880562D4990C05
+- expected_values:
+    3008_CRANK_SPD_DETERMINED: 1679.5
+  response: 6880562D4990D1F
+- expected_values:
+    3008_CRANK_SPD_DETERMINED: 1765.5
+  response: 6880562D4990DCB
+- expected_values:
+    3008_CRANK_SPD_DETERMINED: 1859
+  response: 6880562D4990E86

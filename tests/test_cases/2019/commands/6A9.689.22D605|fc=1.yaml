@@ -1,0 +1,20 @@
+command_id: 6A9.689.22D605|fc=1
+test_cases:
+- expected_values:
+    3008_TQ_CONV_LOCK_UP_P_VARIATION: 90
+  response: 6890462D60509
+- expected_values:
+    3008_TQ_CONV_LOCK_UP_P_VARIATION: 440
+  response: 6890462D6052C
+- expected_values:
+    3008_TQ_CONV_LOCK_UP_P_VARIATION: 470
+  response: 6890462D6052F
+- expected_values:
+    3008_TQ_CONV_LOCK_UP_P_VARIATION: 610
+  response: 6890462D6053D
+- expected_values:
+    3008_TQ_CONV_LOCK_UP_P_VARIATION: 740
+  response: 6890462D6054A
+- expected_values:
+    3008_TQ_CONV_LOCK_UP_P_VARIATION: 920
+  response: 6890462D6055C

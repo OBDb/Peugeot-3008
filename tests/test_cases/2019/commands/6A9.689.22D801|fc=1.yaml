@@ -1,0 +1,20 @@
+command_id: 6A9.689.22D801|fc=1
+test_cases:
+- expected_values:
+    3008_VEH_HOUR_METER: 4921442.9
+  response: 6890762D80102EEF3DD
+- expected_values:
+    3008_VEH_HOUR_METER: 4921502.6
+  response: 6890762D80102EEF632
+- expected_values:
+    3008_VEH_HOUR_METER: 4921550.4
+  response: 6890762D80102EEF810
+- expected_values:
+    3008_VEH_HOUR_METER: 4921602.2
+  response: 6890762D80102EEFA16
+- expected_values:
+    3008_VEH_HOUR_METER: 4921642.5
+  response: 6890762D80102EEFBA9
+- expected_values:
+    3008_VEH_HOUR_METER: 4921683.5
+  response: 6890762D80102EEFD43

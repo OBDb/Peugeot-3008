@@ -1,0 +1,20 @@
+command_id: 6A9.689.22D533|fc=1
+test_cases:
+- expected_values:
+    3008_AVG_SPD_FRONT_WHEELS: 0
+  response: 6890562D5330000
+- expected_values:
+    3008_AVG_SPD_FRONT_WHEELS: 26.68
+  response: 6890562D5330A6C
+- expected_values:
+    3008_AVG_SPD_FRONT_WHEELS: 46.38
+  response: 6890562D533121E
+- expected_values:
+    3008_AVG_SPD_FRONT_WHEELS: 51.31
+  response: 6890562D533140B
+- expected_values:
+    3008_AVG_SPD_FRONT_WHEELS: 59.55
+  response: 6890562D5331743
+- expected_values:
+    3008_AVG_SPD_FRONT_WHEELS: 72.89
+  response: 6890562D5331C79

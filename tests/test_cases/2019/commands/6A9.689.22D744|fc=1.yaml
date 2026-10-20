@@ -1,0 +1,17 @@
+command_id: 6A9.689.22D744|fc=1
+test_cases:
+- expected_values:
+    3008_NUM_ACTIVATIONS_CLU_C3: 453910
+  response: 6890762D7440006ED16
+- expected_values:
+    3008_NUM_ACTIVATIONS_CLU_C3: 453912
+  response: 6890762D7440006ED18
+- expected_values:
+    3008_NUM_ACTIVATIONS_CLU_C3: 453913
+  response: 6890762D7440006ED19
+- expected_values:
+    3008_NUM_ACTIVATIONS_CLU_C3: 453914
+  response: 6890762D7440006ED1A
+- expected_values:
+    3008_NUM_ACTIVATIONS_CLU_C3: 453915
+  response: 6890762D7440006ED1B

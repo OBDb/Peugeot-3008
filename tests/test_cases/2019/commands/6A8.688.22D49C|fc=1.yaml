@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D49C|fc=1
+test_cases:
+- expected_values:
+    3008_ODO_6A8: 228256
+  response: 6880762D49C00037BA0
+- expected_values:
+    3008_ODO_6A8: 228257
+  response: 6880762D49C00037BA1
+- expected_values:
+    3008_ODO_6A8: 228258
+  response: 6880762D49C00037BA2
+- expected_values:
+    3008_ODO_6A8: 228259
+  response: 6880762D49C00037BA3

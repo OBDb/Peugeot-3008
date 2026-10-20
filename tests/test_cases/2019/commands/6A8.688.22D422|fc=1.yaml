@@ -1,0 +1,14 @@
+command_id: 6A8.688.22D422|fc=1
+test_cases:
+- expected_values:
+    3008_ENG_CTRL_COMPUTER_V: 13.84
+  response: 6880562D4220568
+- expected_values:
+    3008_ENG_CTRL_COMPUTER_V: 13.86
+  response: 6880562D422056A
+- expected_values:
+    3008_ENG_CTRL_COMPUTER_V: 13.9
+  response: 6880562D422056E
+- expected_values:
+    3008_ENG_CTRL_COMPUTER_V: 13.92
+  response: 6880562D4220570

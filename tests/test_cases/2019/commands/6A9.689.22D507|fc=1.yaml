@@ -1,0 +1,20 @@
+command_id: 6A9.689.22D507|fc=1
+test_cases:
+- expected_values:
+    3008_DRIVER_REQ_TQ: -30
+  response: 6890462D50723
+- expected_values:
+    3008_DRIVER_REQ_TQ: 4
+  response: 6890462D50734
+- expected_values:
+    3008_DRIVER_REQ_TQ: 8
+  response: 6890462D50736
+- expected_values:
+    3008_DRIVER_REQ_TQ: 28
+  response: 6890462D50740
+- expected_values:
+    3008_DRIVER_REQ_TQ: 94
+  response: 6890462D50761
+- expected_values:
+    3008_DRIVER_REQ_TQ: 130
+  response: 6890462D50773

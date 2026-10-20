@@ -1,8 +1,29 @@
 command_id: 6A8.688.22D464|fc=1,din=C0
 test_cases:
 - expected_values:
+    3008_OIL_P_REFERENCE: 2.634
+  response: 6880562D4640A4A
+- expected_values:
+    3008_OIL_P_REFERENCE: 2.636
+  response: 6880562D4640A4C
+- expected_values:
+    3008_OIL_P_REFERENCE: 2.87
+  response: 6880562D4640B36
+- expected_values:
     3008_OIL_P_REFERENCE: 2.928
   response: 6880562D4640B70
+- expected_values:
+    3008_OIL_P_REFERENCE: 2.933
+  response: 6880562D4640B75
+- expected_values:
+    3008_OIL_P_REFERENCE: 2.949
+  response: 6880562D4640B85
+- expected_values:
+    3008_OIL_P_REFERENCE: 2.972
+  response: 6880562D4640B9C
+- expected_values:
+    3008_OIL_P_REFERENCE: 2.98
+  response: 6880562D4640BA4
 - expected_values:
     3008_OIL_P_REFERENCE: 3.07
   response: 6880562D4640BFE

@@ -1,0 +1,20 @@
+command_id: 6A9.689.22D553|fc=1
+test_cases:
+- expected_values:
+    3008_ENG_OP_MODE: 793
+  response: 6890562D55318C8
+- expected_values:
+    3008_ENG_OP_MODE: 1526
+  response: 6890562D5532FB0
+- expected_values:
+    3008_ENG_OP_MODE: 1585
+  response: 6890562D5533188
+- expected_values:
+    3008_ENG_OP_MODE: 1812
+  response: 6890562D55338A0
+- expected_values:
+    3008_ENG_OP_MODE: 1930
+  response: 6890562D5533C50
+- expected_values:
+    3008_ENG_OP_MODE: 2282
+  response: 6890562D5534750

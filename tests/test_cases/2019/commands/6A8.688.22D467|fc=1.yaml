@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D467|fc=1
+test_cases:
+- expected_values:
+    3008_SERVICE_BAT_CHG_STAT: 77.5
+  response: 6880562D46704D8

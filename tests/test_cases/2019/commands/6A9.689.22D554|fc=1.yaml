@@ -1,0 +1,20 @@
+command_id: 6A9.689.22D554|fc=1
+test_cases:
+- expected_values:
+    3008_REAL_ENG_TQ: -28
+  response: 6890462D55424
+- expected_values:
+    3008_REAL_ENG_TQ: 6
+  response: 6890462D55435
+- expected_values:
+    3008_REAL_ENG_TQ: 10
+  response: 6890462D55437
+- expected_values:
+    3008_REAL_ENG_TQ: 22
+  response: 6890462D5543D
+- expected_values:
+    3008_REAL_ENG_TQ: 112
+  response: 6890462D5546A
+- expected_values:
+    3008_REAL_ENG_TQ: 126
+  response: 6890462D55471

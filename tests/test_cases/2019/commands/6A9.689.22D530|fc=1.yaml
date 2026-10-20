@@ -1,0 +1,20 @@
+command_id: 6A9.689.22D530|fc=1
+test_cases:
+- expected_values:
+    3008_AVG_FRONT_WHL_SPD: 0
+  response: 6890562D5300000
+- expected_values:
+    3008_AVG_FRONT_WHL_SPD: 157
+  response: 6890562D5300F55
+- expected_values:
+    3008_AVG_FRONT_WHL_SPD: 335.79999
+  response: 6890562D53020CB
+- expected_values:
+    3008_AVG_FRONT_WHL_SPD: 362.15999
+  response: 6890562D530235E
+- expected_values:
+    3008_AVG_FRONT_WHL_SPD: 465.79999
+  response: 6890562D5302D7D
+- expected_values:
+    3008_AVG_FRONT_WHL_SPD: 468.67999
+  response: 6890562D5302DC5

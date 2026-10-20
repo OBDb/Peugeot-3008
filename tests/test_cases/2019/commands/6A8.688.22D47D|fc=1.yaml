@@ -1,0 +1,11 @@
+command_id: 6A8.688.22D47D|fc=1
+test_cases:
+- expected_values:
+    3008_OIL_T: -177.94001
+  response: 6880562D47D03B8
+- expected_values:
+    3008_OIL_T: -177.14001
+  response: 6880562D47D03C0
+- expected_values:
+    3008_OIL_T: -176.94001
+  response: 6880562D47D03C2

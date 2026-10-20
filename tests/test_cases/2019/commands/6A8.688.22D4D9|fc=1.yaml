@@ -1,0 +1,23 @@
+command_id: 6A8.688.22D4D9|fc=1
+test_cases:
+- expected_values:
+    3008_TURBOCHARGER_P_MEAS: 4450
+  response: 6880562D4D91162
+- expected_values:
+    3008_TURBOCHARGER_P_MEAS: 5222
+  response: 6880562D4D91466
+- expected_values:
+    3008_TURBOCHARGER_P_MEAS: 5294
+  response: 6880562D4D914AE
+- expected_values:
+    3008_TURBOCHARGER_P_MEAS: 6121
+  response: 6880562D4D917E9
+- expected_values:
+    3008_TURBOCHARGER_P_MEAS: 7505
+  response: 6880562D4D91D51
+- expected_values:
+    3008_TURBOCHARGER_P_MEAS: 9382
+  response: 6880562D4D924A6
+- expected_values:
+    3008_TURBOCHARGER_P_MEAS: 11592
+  response: 6880562D4D92D48

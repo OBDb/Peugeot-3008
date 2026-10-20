@@ -1,0 +1,8 @@
+command_id: 6A8.688.22D465|fc=1
+test_cases:
+- expected_values:
+    3008_ATMOSPHERIC_P: 1001
+  response: 6880562D46503E9
+- expected_values:
+    3008_ATMOSPHERIC_P: 1002
+  response: 6880562D46503EA
