@@ -4,11 +4,11 @@ test_cases:
     3008_OIL_T: -235.44001
   response: 6880562D47D0179
 - expected_values:
-    3008_OIL_T: -222.64001
-  response: 6880562D47D01F9
-- expected_values:
     3008_OIL_T: -219.14001
   response: 6880562D47D021C
 - expected_values:
     3008_OIL_T: -179.94001
   response: 6880562D47D03A4
+- expected_values:
+    3008_OIL_T: -171.14001
+  response: 6880562D47D03FC
