@@ -1,11 +1,32 @@
 command_id: 6A8.688.22D47D|fc=1
 test_cases:
 - expected_values:
+    3008_OIL_T: -179.94001
+  response: 6880562D47D03A4
+- expected_values:
+    3008_OIL_T: -179.64001
+  response: 6880562D47D03A7
+- expected_values:
+    3008_OIL_T: -179.14001
+  response: 6880562D47D03AC
+- expected_values:
+    3008_OIL_T: -178.64001
+  response: 6880562D47D03B1
+- expected_values:
+    3008_OIL_T: -178.14001
+  response: 6880562D47D03B6
+- expected_values:
     3008_OIL_T: -177.94001
   response: 6880562D47D03B8
+- expected_values:
+    3008_OIL_T: -177.64001
+  response: 6880562D47D03BB
 - expected_values:
     3008_OIL_T: -177.14001
   response: 6880562D47D03C0
 - expected_values:
     3008_OIL_T: -176.94001
   response: 6880562D47D03C2
+- expected_values:
+    3008_OIL_T: -176.14001
+  response: 6880562D47D03CA
