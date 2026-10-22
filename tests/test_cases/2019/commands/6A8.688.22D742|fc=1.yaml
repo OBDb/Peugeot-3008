@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     3008_SERVICE_BAT_CHG_ST: 0
   response: 6880462D74200
+- expected_values:
+    3008_SERVICE_BAT_CHG_ST: 1
+  response: 6880462D74201

@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     3008_LOW_P_FUEL_PMP: 0.8
   response: 6880562D4720050
+- expected_values:
+    3008_LOW_P_FUEL_PMP: 284.15999
+  response: 6880562D4726F00

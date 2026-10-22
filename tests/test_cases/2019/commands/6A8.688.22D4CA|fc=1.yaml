@@ -4,20 +4,11 @@ test_cases:
     3008_DATE: 4921429.9
   response: 6880762D4CA02EEF35B
 - expected_values:
-    3008_DATE: 4921488.9
-  response: 6880762D4CA02EEF5A9
-- expected_values:
-    3008_DATE: 4921535.9
-  response: 6880762D4CA02EEF77F
-- expected_values:
-    3008_DATE: 4921586.9
-  response: 6880762D4CA02EEF97D
-- expected_values:
-    3008_DATE: 4921621.8
-  response: 6880762D4CA02EEFADA
-- expected_values:
-    3008_DATE: 4921667.9
-  response: 6880762D4CA02EEFCA7
-- expected_values:
     3008_DATE: 4921703.9
   response: 6880762D4CA02EEFE0F
+- expected_values:
+    3008_DATE: 23656358
+  response: 6880762D4CA0E19AC7C
+- expected_values:
+    3008_DATE: 23656396
+  response: 6880762D4CA0E19ADF8

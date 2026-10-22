@@ -4,23 +4,8 @@ test_cases:
     3008_INDICATED_ENG_TQ: 0
   response: 6880562D4D20000
 - expected_values:
-    3008_INDICATED_ENG_TQ: 22.8125
-  response: 6880562D4D2016D
-- expected_values:
-    3008_INDICATED_ENG_TQ: 23.125
-  response: 6880562D4D20172
-- expected_values:
-    3008_INDICATED_ENG_TQ: 24.5625
-  response: 6880562D4D20189
-- expected_values:
-    3008_INDICATED_ENG_TQ: 44.875
-  response: 6880562D4D202CE
-- expected_values:
-    3008_INDICATED_ENG_TQ: 54.75
-  response: 6880562D4D2036C
-- expected_values:
-    3008_INDICATED_ENG_TQ: 60.625
-  response: 6880562D4D203CA
+    3008_INDICATED_ENG_TQ: 31
+  response: 6880562D4D201F0
 - expected_values:
     3008_INDICATED_ENG_TQ: 74.4375
   response: 6880562D4D204A7

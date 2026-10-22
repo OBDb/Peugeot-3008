@@ -1,0 +1,5 @@
+command_id: 6A8.688.22D4D8|fc=1
+test_cases:
+- expected_values:
+    3008_CNT_NUM_RE: 4728
+  response: 6880562D4D81278

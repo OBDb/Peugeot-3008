@@ -1,14 +1,8 @@
 command_id: 6A8.688.22D40A|fc=1
 test_cases:
 - expected_values:
-    3008_ECT_CORRECTED: 87
-  response: 6880562D40A0057
-- expected_values:
-    3008_ECT_CORRECTED: 88
-  response: 6880562D40A0058
-- expected_values:
-    3008_ECT_CORRECTED: 89
-  response: 6880562D40A0059
+    3008_ECT_CORRECTED: 64
+  response: 6880562D40A0040
 - expected_values:
     3008_ECT_CORRECTED: 96
   response: 6880562D40A0060

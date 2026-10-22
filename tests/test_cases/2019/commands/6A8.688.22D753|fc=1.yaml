@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     3008_DURING_GEN_LOAD: 9
   response: 6880462D75309
+- expected_values:
+    3008_DURING_GEN_LOAD: 13
+  response: 6880462D7530D

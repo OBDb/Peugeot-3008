@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     3008_STARTER_ACTIVATION: 12990
   response: 6880762D71F000032BE
+- expected_values:
+    3008_STARTER_ACTIVATION: 19189
+  response: 6880762D71F00004AF5

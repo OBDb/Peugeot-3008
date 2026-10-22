@@ -4,23 +4,8 @@ test_cases:
     3008_TQ_CORRESPONDING: 9.375
   response: 6880562D4E30096
 - expected_values:
-    3008_TQ_CORRESPONDING: 30.25
-  response: 6880562D4E301E4
-- expected_values:
-    3008_TQ_CORRESPONDING: 67.25
-  response: 6880562D4E30434
-- expected_values:
-    3008_TQ_CORRESPONDING: 104.9375
-  response: 6880562D4E3068F
-- expected_values:
     3008_TQ_CORRESPONDING: -33
   response: 6880562D4E3FDF0
 - expected_values:
     3008_TQ_CORRESPONDING: -31.6875
   response: 6880562D4E3FE05
-- expected_values:
-    3008_TQ_CORRESPONDING: -29.625
-  response: 6880562D4E3FE26
-- expected_values:
-    3008_TQ_CORRESPONDING: -24.5
-  response: 6880562D4E3FE78
