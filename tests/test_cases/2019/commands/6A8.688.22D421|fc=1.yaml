@@ -1,20 +1,11 @@
 command_id: 6A8.688.22D421|fc=1
 test_cases:
 - expected_values:
-    3008_AC_P: 17.286
-  response: 6880562D4214386
-- expected_values:
-    3008_AC_P: 17.576
-  response: 6880562D42144A8
+    3008_AC_P: 14.303
+  response: 6880562D42137DF
 - expected_values:
     3008_AC_P: 17.656
   response: 6880562D42144F8
-- expected_values:
-    3008_AC_P: 17.726
-  response: 6880562D421453E
-- expected_values:
-    3008_AC_P: 18.153
-  response: 6880562D42146E9
 - expected_values:
     3008_AC_P: 19.723
   response: 6880562D4214D0B

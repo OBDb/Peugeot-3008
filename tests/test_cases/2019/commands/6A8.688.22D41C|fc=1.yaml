@@ -12,3 +12,15 @@ test_cases:
 - expected_values:
     3008_AC_COMP_CURRENT: 475
   response: 6880462D41C13
+- expected_values:
+    3008_AC_COMP_CURRENT: 575
+  response: 6880462D41C17
+- expected_values:
+    3008_AC_COMP_CURRENT: 625
+  response: 6880462D41C19
+- expected_values:
+    3008_AC_COMP_CURRENT: 650
+  response: 6880462D41C1A
+- expected_values:
+    3008_AC_COMP_CURRENT: 675
+  response: 6880462D41C1B

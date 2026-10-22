@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     3008_ECT_TGT: 95
   response: 6880562D40D005F
+- expected_values:
+    3008_ECT_TGT: 103
+  response: 6880562D40D0067

@@ -7,11 +7,20 @@ test_cases:
     3008_ALTERNATOR_LOAD: 22
   response: 6880462D4A516
 - expected_values:
+    3008_ALTERNATOR_LOAD: 26
+  response: 6880462D4A51A
+- expected_values:
+    3008_ALTERNATOR_LOAD: 29
+  response: 6880462D4A51D
+- expected_values:
     3008_ALTERNATOR_LOAD: 32
   response: 6880462D4A520
 - expected_values:
     3008_ALTERNATOR_LOAD: 35
   response: 6880462D4A523
+- expected_values:
+    3008_ALTERNATOR_LOAD: 36
+  response: 6880462D4A524
 - expected_values:
     3008_ALTERNATOR_LOAD: 38
   response: 6880462D4A526

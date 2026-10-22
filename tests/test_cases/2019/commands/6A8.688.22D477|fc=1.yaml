@@ -1,5 +1,8 @@
 command_id: 6A8.688.22D477|fc=1
 test_cases:
 - expected_values:
+    3008_ENG_STOP_TIME: 109
+  response: 6880762D4770000006D
+- expected_values:
     3008_ENG_STOP_TIME: 26346
   response: 6880762D477000066EA

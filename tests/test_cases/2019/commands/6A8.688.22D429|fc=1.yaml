@@ -4,23 +4,8 @@ test_cases:
     3008_OIL_P: 0.361
   response: 6880562D4290169
 - expected_values:
-    3008_OIL_P: 0.364
-  response: 6880562D429016C
+    3008_OIL_P: 18.68
+  response: 6880562D42948F8
 - expected_values:
-    3008_OIL_P: 0.374
-  response: 6880562D4290176
-- expected_values:
-    3008_OIL_P: 0.379
-  response: 6880562D429017B
-- expected_values:
-    3008_OIL_P: 0.387
-  response: 6880562D4290183
-- expected_values:
-    3008_OIL_P: 0.395
-  response: 6880562D429018B
-- expected_values:
-    3008_OIL_P: 0.396
-  response: 6880562D429018C
-- expected_values:
-    3008_OIL_P: 0.418
-  response: 6880562D42901A2
+    3008_OIL_P: 18.717
+  response: 6880562D429491D

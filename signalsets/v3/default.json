@@ -215,7 +215,7 @@
   "signals": [
     {"id": "3008_NEUTRAL_POS_SENS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Neutral position sensor status"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "din": "C0", "dbg": true, "cmd": {"22": "D43B"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "din": "C0", "cmd": {"22": "D43B"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_OIL_P_REGULATION", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "percent" }, "name": "Oil pressure regulation control"}
   ]},
@@ -251,7 +251,7 @@
   "signals": [
     {"id": "3008_AIR_METERING_VLV", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100.0000022352, "sign": true, "unit": "percent" }, "name": "Air metering valve duty cycle"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D462"}, "freq": 0.25,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D462"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_CRANK_SPD", "path": "Movement", "fmt": { "len": 16, "max": 32767, "div": 2, "unit": "rpm" }, "name": "Crankshaft speed"}
   ]},
@@ -279,7 +279,7 @@
   "signals": [
     {"id": "3008_LOW_P_FUEL_PMP", "path": "Fuel", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100.0000022352, "sign": true, "unit": "percent" }, "name": "Low pressure fuel pump actuator duty cycle"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D474"}, "freq": 0.25,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D474"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_ABS_EKS_PROCESS_ADJ", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Anti-lock brake or stability control regulating"}
   ]},
@@ -315,7 +315,7 @@
   "signals": [
     {"id": "3008_TURBOCHARGER_CTRL", "path": "Battery", "fmt": { "len": 16, "max": 127, "min": -128, "div": 256, "sign": true, "unit": "percent" }, "name": "Turbocharger control duty cycle"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D48C"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D48C"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_TURBOCHARGER_FIRST", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Turbocharger first electronic boost"}
   ]},
@@ -395,7 +395,7 @@
   "signals": [
     {"id": "3008_MIN_BAT_V_STARTUP", "path": "Battery", "fmt": { "len": 16, "max": 655, "min": -655, "div": 50.0000011176, "sign": true, "unit": "volts" }, "name": "Minimum battery voltage at startup"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D4D8"}, "freq": 3600,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4D8"}, "freq": 3600, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_CNT_NUM_RE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Computer restarts since memory erase"}
   ]},
@@ -411,27 +411,27 @@
   "signals": [
     {"id": "3008_TQ_CORRESPONDING", "path": "Engine", "fmt": { "len": 16, "max": 2047, "min": -2048, "div": 16, "sign": true, "unit": "newtonMeters" }, "name": "Torque corresponding to driver requirement"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D4E4"}, "freq": 3600,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4E4"}, "freq": 3600, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_CNT_OCCURRENCE", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Counter of occurrence of enhanced resonance of the twin flywheel of the engine"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D4E5"}, "freq": 3600,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4E5"}, "freq": 3600, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_CNT_OCCURRENCE_RESONANCE", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Counter of occurrence of resonance of the twin flywheel of the engine"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D4EA"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4EA"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_TURBOCHARGER_POS", "path": "Battery", "fmt": { "len": 16, "max": 655, "div": 100.0000022352, "unit": "percent" }, "name": "Turbocharger position information"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D4EB"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4EB"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_MOVEMENT_CONTROLLED", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Movement of controlled air supply module"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D4EC"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4EC"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_APPROXIMATE_POS", "path": "Battery", "fmt": { "len": 16, "max": 511, "div": 128, "unit": "percent" }, "name": "Approximate position of turbocharger actuator"}
   ]},
-{ "hdr": "6A8", "rax": "688", "fcm1": true, "dbg": true, "cmd": {"22": "D4ED"}, "freq": 1,
+{ "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D4ED"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "3008_LOW_P_FUEL_PMP_STAT", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Low pressure fuel pump status"}
   ]},

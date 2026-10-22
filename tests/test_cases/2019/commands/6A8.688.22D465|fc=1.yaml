@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     3008_ATMOSPHERIC_P: 1002
   response: 6880562D46503EA
+- expected_values:
+    3008_ATMOSPHERIC_P: 12418
+  response: 6880562D4653082
+- expected_values:
+    3008_ATMOSPHERIC_P: 12421
+  response: 6880562D4653085
+- expected_values:
+    3008_ATMOSPHERIC_P: 12429
+  response: 6880562D465308D

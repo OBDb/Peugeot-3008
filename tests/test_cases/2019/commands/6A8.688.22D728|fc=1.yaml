@@ -1,26 +1,11 @@
 command_id: 6A8.688.22D728|fc=1
 test_cases:
 - expected_values:
-    3008_TQ_SUPPLIED_OR_TAKEN: 5.6875
-  response: 6880562D728005B
-- expected_values:
-    3008_TQ_SUPPLIED_OR_TAKEN: 8
-  response: 6880562D7280080
-- expected_values:
-    3008_TQ_SUPPLIED_OR_TAKEN: 21.3125
-  response: 6880562D7280155
-- expected_values:
-    3008_TQ_SUPPLIED_OR_TAKEN: 37.25
-  response: 6880562D7280254
-- expected_values:
-    3008_TQ_SUPPLIED_OR_TAKEN: 66.1875
-  response: 6880562D7280423
+    3008_TQ_SUPPLIED_OR_TAKEN: 3.625
+  response: 6880562D728003A
 - expected_values:
     3008_TQ_SUPPLIED_OR_TAKEN: 123.625
   response: 6880562D72807BA
 - expected_values:
     3008_TQ_SUPPLIED_OR_TAKEN: -30.625
   response: 6880562D728FE16
-- expected_values:
-    3008_TQ_SUPPLIED_OR_TAKEN: -24.6875
-  response: 6880562D728FE75
