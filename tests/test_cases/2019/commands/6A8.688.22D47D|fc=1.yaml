@@ -4,6 +4,9 @@ test_cases:
     3008_OIL_T: 37.7
   response: 6880562D47D0179
 - expected_values:
+    3008_OIL_T: 51.2
+  response: 6880562D47D0200
+- expected_values:
     3008_OIL_T: 76.7
   response: 6880562D47D02FF
 - expected_values:
