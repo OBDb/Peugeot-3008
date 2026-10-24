@@ -209,7 +209,7 @@
   ]},
 { "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D435"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
-    {"id": "3008_COMPUTER_T", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Computer temperature"}
+    {"id": "3008_COMPUTER_T", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Computer temperature raw"}
   ]},
 { "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D438"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
@@ -277,7 +277,7 @@
   ]},
 { "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D472"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
-    {"id": "3008_LOW_P_FUEL_PMP", "path": "Fuel", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100.0000022352, "sign": true, "unit": "percent" }, "name": "Low pressure fuel pump actuator duty cycle"}
+    {"id": "3008_LOW_P_FUEL_PMP", "path": "Fuel", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Low pressure fuel pump actuator duty cycle raw"}
   ]},
 { "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D474"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
@@ -305,7 +305,7 @@
   ]},
 { "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D47D"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
-    {"id": "3008_OIL_T", "path": "Engine", "fmt": { "len": 16, "max": 3003, "min": -3549, "div": 10, "add": -273.1400146484, "sign": true, "unit": "celsius" }, "name": "Oil temperature", "suggestedMetric": "engineOilTemperature"}
+    {"id": "3008_OIL_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
 { "hdr": "6A8", "rax": "688", "fcm1": true, "cmd": {"22": "D489"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
