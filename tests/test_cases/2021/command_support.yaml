@@ -31,6 +31,7 @@ supported_commands_by_ecu:
   - 0150:MAX_MAF
   - 0151:FUEL_TYP
   - 015E:FUEL_RATE
+  - 019D:FUEL_RATE_ALT,VFUEL_RATE
 unsupported_commands_by_ecu:
   "6B4":
   - 6B4.694.22D410|fc=1:3008_HVBAT_SOC
